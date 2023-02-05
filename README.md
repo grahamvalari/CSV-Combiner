@@ -1,4 +1,4 @@
-# CSV Combiner 
+# CSV Combiner - Valari Graham 
 
 This is a command line program that takes in several CSV files as arguments and will output a new CSV file that contains the rows from each of the inputs. The new CSV file contains an added column that has the file from which the row originated. 
 

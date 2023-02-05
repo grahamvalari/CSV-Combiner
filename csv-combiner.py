@@ -24,6 +24,3 @@ print(df.head(10))
 
 # Output combined master dataframe to .csv 
 df.to_csv("combined.csv", index = False) 
-
-
-
