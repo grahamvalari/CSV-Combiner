@@ -14,7 +14,7 @@ for file in os.listdir(os.getcwd()):
 		# Add file to the master dataframe 
 		df = df.append(df_file)
 	else :
-		print("This file is not compatible:" + file )
+		print("This file is not compatible:" + file)
 
 # Add filename to the last column as the identifier 
 df = df.set_axis([*df.columns[:-1], 'filename'], axis=1)
